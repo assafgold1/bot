@@ -1,16 +1,32 @@
 {
-  "name": "express-hello-world",
+  "name": "dd",
   "version": "1.0.0",
-  "description": "Express Hello World on Render",
-  "main": "app.js",
-  "repository": "https://github.com/render-examples/express-hello-world",
-  "author": "Render Developers",
-  "license": "MIT",
-  "private": false,
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^5.0.0"
+    "@discordjs/voice": "^0.19.2",
+    "@distube/soundcloud": "^2.0.4",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "axios": "^1.13.6",
+    "better-sqlite3": "^12.8.0",
+    "canvas": "^3.2.2",
+    "chartjs-node-canvas": "^5.0.0",
+    "cors": "^2.8.6",
+    "discord-api-types": "^0.38.42",
+    "discord.js": "^14.25.1",
+    "distube": "^5.2.3",
+    "express": "^5.2.1",
+    "ffmpeg-static": "^5.3.0",
+    "google-tts-api": "^2.0.2",
+    "lavalink-client": "^2.9.9",
+    "libsodium-wrappers": "^0.8.2",
+    "magmastream": "^2.10.1",
+    "qrcode-terminal": "^0.12.0",
+    "quick.db": "^9.1.7"
   }
 }
